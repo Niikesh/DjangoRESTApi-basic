@@ -1,0 +1,46 @@
+.completed .form-check{
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.card {
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+
+.todo-item {
+    transition: all 0.2s ease;
+}
+
+.todo-item:hover {
+    background-color: #f8f9fa;
+}
+
+.todo-item.completed .todo-content label {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.todo-description {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-top: 0.25rem;
+}
+
+.todo-actions {
+    gap: 0.5rem;
+}
+
+.modal-content {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+    border-color: #80bdff;
+} 
